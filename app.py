@@ -32,8 +32,8 @@ while True:
         else:
             x1 = (-b + cmath.sqrt(delta)) / (2 * a)
             x2 = (-b - cmath.sqrt(delta)) / (2 * a)
-            
-            
+
+        # Mostra o valor do x' e do x''
         print(f"O valor de x\' é = {x1}")
         print(f"O valor de x\" é = {x2}")
     print("")
